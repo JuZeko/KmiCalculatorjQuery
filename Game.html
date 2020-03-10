@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <title>Hello</title>
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="smallC" id="note">
+            <p> <b>Kūno masės indeksas (KMI)</b> – žmogaus masės ir ūgio kvadrato santykis, medicinoje ir mityboje naudojamas kaip rodiklis, leidžiantis įvertinti ar žmogaus masė yra normali.</p>
+        </div>
+        <div class="smallC">
+            <form>
+                <label> Svoris</label>
+                <input style="text-align:center" id="svoris" type="number" value="70" name="Svoris" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="kg">
+                <label style="padding-top:  10px"> Ugis</label>
+                <input style="text-align:center" id="ugis" value="170" type="number" name="Svoris" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="cm">
+            </form>
+        </div>
+        <div class="smallC"><button style="width: 20%" type="button" id="b" class="btn btn-warning"> Ok</button></div>
+        <div class="smallC">
+            <h3 style="padding-top: 25px;" id="kmi"> Tavo KMI yra</h3>
+        </div>
+        <div class="smallC">
+            <p id="info">
+                <p> <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Orange_question_mark.svg/450px-Orange_question_mark.svg.png" width="20%" height="10%">
+        </div>
+    </div>
+    });
+</body>
+
+</html>
